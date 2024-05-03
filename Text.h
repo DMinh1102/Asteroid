@@ -17,6 +17,7 @@ using namespace std;
     }
     void write(char* s , int x,int y)
     {
+        font = TTF_OpenFont("assets/Minecraft.ttf",45);
         SDL_Rect dsrect;
         dsrect.x=x;
         dsrect.y=y;
@@ -26,7 +27,9 @@ using namespace std;
         dsrect.w = textSurface->w;
         dsrect.h = textSurface->h;
         SDL_FreeSurface(textSurface);
+        TTF_CloseFont(font);
         SDL_RenderCopy(renderer, textTexture,NULL,&dsrect);
+        SDL_DestroyTexture(textTexture);
     }
     char* convertItoC(int x)
     {

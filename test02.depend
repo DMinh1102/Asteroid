@@ -71,3 +71,37 @@
 
 1714079479 c:\users\kigdle\desktop\new folder (5)\asteroid\sound.h
 
+1714081169 source:c:\users\kigdle\desktop\new folder (5)\asteroid\asteroid\main.cpp
+	<iostream>
+	<SDL.h>
+	<math.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"DefinedValues.h"
+	"Engine.h"
+	"Text.h"
+	"Sound.h"
+
+1714081609 c:\users\kigdle\desktop\new folder (5)\asteroid\asteroid\definedvalues.h
+
+1714082070 c:\users\kigdle\desktop\new folder (5)\asteroid\asteroid\engine.h
+	<bits/stdc++.h>
+	"DefinedValues.h"
+	"Graphics.h"
+	"Text.h"
+	"Sound.h"
+
+1714080692 c:\users\kigdle\desktop\new folder (5)\asteroid\asteroid\graphics.h
+	"DefinedValues.h"
+	<iostream>
+
+1714710097 c:\users\kigdle\desktop\new folder (5)\asteroid\asteroid\text.h
+	<bits/stdc++.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	"DefinedValues.h"
+	"Graphics.h"
+
+1714079479 c:\users\kigdle\desktop\new folder (5)\asteroid\asteroid\sound.h
+
